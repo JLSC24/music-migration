@@ -2,7 +2,6 @@ package handlers
 
 import (
 	"database/sql"
-	"music-migration/internal/models"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -57,8 +56,6 @@ func (h *AuthHandler) AppleMusicCallback(c *fiber.Ctx) error {
 // GetAuthStatus returns current authentication status
 func (h *AuthHandler) GetAuthStatus(c *fiber.Ctx) error {
 	userID := c.Locals("userID").(int)
-
-	tokens := []models.AuthToken{}
 	
 	rows, err := h.db.Query(`
 		SELECT provider, expires_at 
