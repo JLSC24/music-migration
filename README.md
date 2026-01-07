@@ -4,35 +4,37 @@ Migra tus playlists y biblioteca musical entre **Spotify** y **Apple Music** de 
 
 ## 🚀 Características
 
-- ✅ Migración bidireccional: Spotify → Apple Music y Apple Music → Spotify
-- ✅ Autenticación OAuth2 segura
-- ✅ Motor de matching inteligente con múltiples criterios (ISRC, metadata)
-- ✅ Procesamiento paralelo de miles de canciones
-- ✅ Progreso en tiempo real con WebSockets
-- ✅ Reporte detallado de éxitos y fallos
-- ✅ Interfaz moderna y responsive
+-   ✅ Migración bidireccional: Spotify → Apple Music y Apple Music → Spotify
+-   ✅ Autenticación OAuth2 segura
+-   ✅ Motor de matching inteligente con múltiples criterios (ISRC, metadata)
+-   ✅ Procesamiento paralelo de miles de canciones
+-   ✅ Progreso en tiempo real con WebSockets
+-   ✅ Reporte detallado de éxitos y fallos
+-   ✅ Interfaz moderna y responsive
 
 ## 🛠️ Stack Tecnológico
 
 ### Backend
-- **Go 1.21+** - Performance y concurrencia
-- **Fiber** - Framework web rápido
-- **PostgreSQL** - Base de datos
-- **Redis** - Cache y rate limiting
+
+-   **Go 1.21+** - Performance y concurrencia
+-   **Fiber** - Framework web rápido
+-   **PostgreSQL** - Base de datos
+-   **Redis** - Cache y rate limiting
 
 ### Frontend
-- **Next.js 14** - React framework
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Estilos
-- **TanStack Query** - Data fetching
+
+-   **Next.js 14** - React framework
+-   **TypeScript** - Type safety
+-   **Tailwind CSS** - Estilos
+-   **TanStack Query** - Data fetching
 
 ## 📋 Prerequisitos
 
-- Go 1.21 o superior
-- Node.js 18+ y npm/yarn/pnpm
-- PostgreSQL 14+
-- Redis 7+
-- Docker & Docker Compose (opcional pero recomendado)
+-   Go 1.21 o superior
+-   Node.js 18+ y npm/yarn/pnpm
+-   PostgreSQL 14+
+-   Redis 7+
+-   Docker & Docker Compose (opcional pero recomendado)
 
 ## 🏃 Quick Start
 
@@ -163,8 +165,9 @@ npm run test
 ## 📝 API Documentation
 
 Una vez iniciado el backend, accede a:
-- Swagger UI: http://localhost:8080/swagger
-- API Docs: http://localhost:8080/api/docs
+
+-   Swagger UI: http://localhost:8080/swagger
+-   API Docs: http://localhost:8080/api/docs
 
 ## 🤝 Contribuir
 
@@ -182,11 +185,4 @@ MIT License - ve [LICENSE](LICENSE) para más detalles
 
 ## 👤 Autor
 
-Tu Nombre - [@tu_usuario](https://github.com/tu-usuario)
-
-## 🙏 Agradecimientos
-
-- [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
-- [Apple Music API](https://developer.apple.com/documentation/applemusicapi/)
-- [Fiber](https://gofiber.io/)
-- [Next.js](https://nextjs.org/)
+Tu Nombre - [@JLSC24](https://github.com/JLSC24)
