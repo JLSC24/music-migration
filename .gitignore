@@ -1,0 +1,68 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+vendor/
+dist/
+tmp/
+
+# Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+.cache/
+.vercel
+.turbo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage
+coverage/
+*.cover
+*.coverage
+
+# Apple Music private key
+*.p8
+
+# Docker
+docker-compose.override.yml
